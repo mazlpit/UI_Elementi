@@ -4398,6 +4398,7 @@ GameObject:
   - component: {fileID: 1217368275}
   - component: {fileID: 1217368274}
   - component: {fileID: 1217368273}
+  - component: {fileID: 1217368276}
   m_Layer: 5
   m_Name: Building2
   m_TagString: Untagged
@@ -4527,6 +4528,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217368271}
   m_CullTransparentMesh: 1
+--- !u!114 &1217368276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217368271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777144b5fff2a74a980b793a4d31725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 0.1
+  positionJiggler: 1
+  positionJiggleAmount: {x: 0, y: 0, z: 0}
+  positionFrequency: 10
+  rotationJiggler: 1
+  rotationJiggleAmount: {x: 0, y: 0, z: 0}
+  rotationFrequency: 10
+  scaleJiggler: 1
+  scaleJiggleAmount: {x: 0.1, y: -0.1, z: 0.1}
+  scaleFrequency: 10
 --- !u!1 &1218647076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5135,6 +5158,7 @@ GameObject:
   - component: {fileID: 1437519908}
   - component: {fileID: 1437519907}
   - component: {fileID: 1437519906}
+  - component: {fileID: 1437519909}
   m_Layer: 5
   m_Name: Building1
   m_TagString: Untagged
@@ -5259,6 +5283,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437519904}
   m_CullTransparentMesh: 1
+--- !u!114 &1437519909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437519904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777144b5fff2a74a980b793a4d31725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 0.1
+  positionJiggler: 1
+  positionJiggleAmount: {x: 0, y: 0, z: 0}
+  positionFrequency: 10
+  rotationJiggler: 1
+  rotationJiggleAmount: {x: 0, y: 0, z: 0}
+  rotationFrequency: 10
+  scaleJiggler: 1
+  scaleJiggleAmount: {x: 0.1, y: -0.1, z: 0.1}
+  scaleFrequency: 10
 --- !u!1 &1469929442
 GameObject:
   m_ObjectHideFlags: 0
@@ -6699,6 +6745,7 @@ GameObject:
   - component: {fileID: 1815153354}
   - component: {fileID: 1815153353}
   - component: {fileID: 1815153355}
+  - component: {fileID: 1815153356}
   m_Layer: 5
   m_Name: MR_Bean
   m_TagString: Untagged
@@ -6808,6 +6855,28 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1815153356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815153351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777144b5fff2a74a980b793a4d31725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 0.1
+  positionJiggler: 1
+  positionJiggleAmount: {x: 0, y: 0, z: 0}
+  positionFrequency: 10
+  rotationJiggler: 1
+  rotationJiggleAmount: {x: 0, y: 0, z: 0}
+  rotationFrequency: 10
+  scaleJiggler: 1
+  scaleJiggleAmount: {x: 0.1, y: -0.1, z: 0.1}
+  scaleFrequency: 10
 --- !u!1 &1827754550
 GameObject:
   m_ObjectHideFlags: 0
